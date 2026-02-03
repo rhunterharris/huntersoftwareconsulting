@@ -1,7 +1,7 @@
 +++
 date = '2026-02-02T12:58:43-05:00'
 draft = false
-title = 'The Value of PRDs in the Age of AI'
+title = 'The Value of PRDs (Product Requirements Doc) in the Age of AI'
 +++
 
 I had a few recurring conversations recently in one of my communities: Engineers were preparing high volumes of code in pull requests, that were then getting jammed up in review.  This is a common problem that has been exacerbated with AI.
