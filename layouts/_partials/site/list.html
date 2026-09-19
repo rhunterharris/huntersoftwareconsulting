@@ -1,0 +1,11 @@
+<div class="wrap archive">
+  <header class="page-heading"><p class="eyebrow">{{ .Params.eyebrow | default "Explore" }}</p><h1>{{ .Title }}{{ if and .IsSection (eq .Section "posts") }}{{ if gt .Paginator.PageNumber 1 }} <span class="archive-page-number">/ Page {{ .Paginator.PageNumber }}</span>{{ end }}{{ end }}</h1>{{ with .Params.intro }}<p class="page-intro">{{ . }}</p>{{ end }}<div class="archive-intro">{{ .Content }}{{ if and .IsSection (eq .Section "posts") }}<p><a class="text-link" href="{{ .Site.Params.newsletterURL }}">Read Don't SaaS Me, my newsletter <span aria-hidden="true">↗</span></a></p>{{ end }}</div></header>
+  {{ if and .IsSection (eq .Section "posts") }}
+    {{ if eq .Paginator.PageNumber 1 }}<div class="reading-guide"><h2>Start here</h2><ul>{{ range slice "posts/2026-08-09-ship-to-burn" "posts/2026-06-21-fCPTO" "posts/2026-07-19-business-exoskeleton" }}{{ with $.Site.GetPage . }}<li><a href="{{ .RelPermalink }}">{{ .Title }} <span aria-hidden="true">↗</span></a></li>{{ end }}{{ end }}</ul></div><h2 class="archive-label">Latest writing</h2>{{ end }}
+    <div class="post-list">{{ range .Paginator.Pages }}{{ partial "site/post-row.html" . }}{{ end }}</div>
+    <nav class="pagination" aria-label="Writing pages">{{ with .Paginator.Prev }}<a href="{{ .URL }}">← Newer</a>{{ end }}<span>Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>{{ with .Paginator.Next }}<a href="{{ .URL }}">Older →</a>{{ end }}</nav>
+  {{ else }}
+    <div class="post-list">{{ range .Paginator.Pages }}{{ partial "site/post-row.html" . }}{{ else }}<p>There are no entries in this index. <a href="{{ "/posts/" | relURL }}">Browse all writing</a>.</p>{{ end }}</div>
+    {{ if gt .Paginator.TotalPages 1 }}<nav class="pagination" aria-label="Index pages">{{ with .Paginator.Prev }}<a href="{{ .URL }}">← Previous</a>{{ end }}<span>Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>{{ with .Paginator.Next }}<a href="{{ .URL }}">Next →</a>{{ end }}</nav>{{ end }}
+  {{ end }}
+</div>

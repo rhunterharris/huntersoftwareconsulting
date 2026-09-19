@@ -3,13 +3,14 @@ date = '2026-05-17T07:46:43-05:00'
 draft = false
 title = 'Local Maxima'
 tags = ["engineering", "process", "leadership"]
+description = "How optimizing for an individual or a team can get in the way of better results for customers and the business."
 +++
 
 One concept I keep returning to is that of local maxima.  If you recall, local maxima occurs when a graph swells to a particular point, dips, and then ascends to a prior point.  It's a recurring problem in optimization - naieve optimization will always reach the local maximum and stop.  There are many techniques to avoid this - picking a random starting point, jolting forward when you think you're at an apex, and retrying, among others.
 
 But we're talking about software.  Software delivery consists of layers of abstraction - put simply, the individual, the team, and the company.
 
-### Team Over Self
+## Team Over Self
 
 We've probably been a part of failed teams before.  It's incredibly common.  Everyone is out for themselves, seeking to optimize their own small area of the company - whether it's a fiefdom or a workday.  But this is an extreme example - a simpler (more insidious) version occurs with siloing.
 
@@ -21,7 +22,7 @@ The solution?  Leave the local maximum.  Each individual has to optimize less fo
 
 It requires education to get people to focus to focus on larger group productivity rather than just individual output.
 
-### Customers First
+## Customers First
 
 This then extrapolates to multiple layers of abstraction.  It's easy to get lost in the layers, if you don't have a north star to guide you.  That north star, to me, is the Customer.  Note the Capital C!  This isn't a customer, but it's closely related the customers.  You could think of the Customer as a sum of your ICPs - the people that you're really trying to serve.
 

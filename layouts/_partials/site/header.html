@@ -1,0 +1,8 @@
+<header class="site-header wrap">
+  <a class="brand" href="{{ "/" | relURL }}" aria-label="Hunter Software Consulting home"><img class="brand-logo" src="{{ "/images/hunter-logo.png" | relURL }}" width="2457" height="534" alt="Hunter Software Consulting"></a>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu <span aria-hidden="true">+</span></button>
+  <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+    {{ range .Site.Menus.main }}<a href="{{ .URL | relURL }}"{{ if eq $.RelPermalink .URL }} aria-current="page"{{ end }}>{{ .Name }}</a>{{ end }}
+    <a class="nav-cta" href="{{ "/pages/services/#take-the-next-step" | relURL }}">Let's talk <span aria-hidden="true">↗</span></a>
+  </nav>
+</header>

@@ -1,0 +1,1 @@
+<article class="post-row"><div class="post-date">{{ if .IsPage }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 Jan 2006" }}</time>{{ end }}</div><div><h2><a href="{{ .RelPermalink }}">{{ .Title }} <span aria-hidden="true">↗</span></a></h2>{{ if .IsPage }}<p>{{ partial "site/description.html" . }}</p>{{ end }}</div></article>

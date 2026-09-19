@@ -1,0 +1,6 @@
+{{- $url := .Permalink -}}
+{{- if in (slice "section" "term" "taxonomy") .Kind -}}
+  {{- $pager := .Paginate .Pages.ByDate.Reverse -}}
+  {{- if gt $pager.PageNumber 1 -}}{{- $url = $pager.URL | absURL -}}{{- end -}}
+{{- end -}}
+{{- return $url -}}

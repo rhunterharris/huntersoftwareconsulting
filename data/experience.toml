@@ -1,0 +1,22 @@
+# Experience and homepage proof copy share one reviewed source bundle.
+[homepage]
+career_note = "Work that brought in revenue and kept customers."
+career_link = "See the decisions and results"
+founder_title = "I find what's standing between your product and revenue."
+founder_paragraphs = [
+  "A stalled deal. A customer about to leave. Another month of payroll without growth. That's where I start.",
+  "Today, I lead Presage Technologies' emerging product organization. I work with customers to understand what they need, set the product direction, and lead the work through delivery.",
+  "At Owner.com, that meant finding revenue lost in undelivered marketing emails. At Sendoso, it meant stopping failed gift sends from driving customers away. I take responsibility for the customer problem and the business result.",
+]
+
+[[highlights]]
+title = "$25M in additional revenue."
+summary = "At Owner.com, I found why restaurant marketing emails weren't reaching their audiences. The fix took an afternoon and let campaigns reach diners who previously never received their offers."
+url = "/pages/about-me/#owner-com"
+linkText = "The Owner.com story"
+
+[[highlights]]
+title = "Fewer customers leaving."
+summary = "At Sendoso, I identified why failed gift sends were driving customers away and owned the dashboard that let them resolve the problem themselves. Churn and support demand fell sharply."
+url = "/pages/about-me/#sendoso"
+linkText = "The Sendoso story"

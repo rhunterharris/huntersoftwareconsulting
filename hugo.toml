@@ -1,77 +1,53 @@
-baseURL = 'https://www.huntersoftwareconsulting.com/'
+baseURL = 'https://huntersoftwareconsulting.com/'
 languageCode = 'en-us'
 title = 'Hunter Software Consulting'
 theme = 'hugo-coder'
-defaultContentLanguage = "en"
+defaultContentLanguage = 'en'
 enableEmoji = true
-#enableGitInfo = true
+enableRobotsTXT = true
+summaryLength = 28
 
 [pagination]
 pagerSize = 10
 
 [params]
-author = "Hunter Harris"
-description = 'Consultant with 2 decades experience, with 4 successful exits'
-avatarURL = "images/avatar.jpg"
-keywords = "blog,engineer,consultant,personal"
-#commit = "https://github.com/JensRantil/jensrantil.github.io/tree"
-colorScheme = "auto"
-hideColorSchemeToggle = false
-maxSeeAlsoItems = 5
+author = 'Hunter Harris'
+description = 'Fractional product and technology leadership for B2B SaaS founders. Ship What Sells is a 90-day engagement with Hunter Harris.'
+email = 'hunter@huntersoftwareconsulting.com'
+bookingURL = 'https://calendly.com/rhunterharris/20-minute-consultation'
+scorecardURL = 'https://hunter-software-consulting.beehiiv.com/products/the-product-tech-scorecard'
+newsletterURL = 'https://hunter-software-consulting.beehiiv.com/'
+imageAlt = 'Hunter Harris'
 
 [taxonomies]
-tag = "tags"
-category = "categories"
+tag = 'tags'
+category = 'categories'
 
-[languages.en]
-languageName = ":us:"
+[markup.goldmark.renderer]
+unsafe = false
 
-[[languages.en.menu.main]]
-name = "Blog"
+[markup.goldmark.extensions.typographer]
+disableDefaultQuotes = true
+
+[markup.highlight]
+noClasses = false
+
+[[menus.main]]
+name = 'Ship What Sells'
+url = '/pages/services/'
 weight = 1
-url = "posts/"
 
-[[languages.en.menu.main]]
-name = "About"
+[[menus.main]]
+name = 'Experience'
+url = '/pages/about-me/'
+weight = 2
+
+[[menus.main]]
+name = 'Founder feedback'
+url = '/testimonials/'
 weight = 3
-url = "/pages/about-me/"
 
-[[languages.en.menu.main]]
-name = "Services"
-weight = 3
-url = "/pages/services/"
-
-[[languages.en.menu.main]]
-name = "Testimonials"
-weight = 3
-url = "testimonials/"
-
-[[params.social]]
-name = "E-mail"
-icon = "fa fa-2x fa-envelope"
-weight = 0
-url = "mailto:hunter@huntersoftwareconsulting.com"
-
-[[params.social]]
-name = "Github"
-icon = "fa fa-2x fa-github"
-weight = 1
-url = "https://github.com/rhunterharris/"
-
-[[params.social]]
-name = "Youtube"
-icon = "fa fa-2x fa-youtube"
-weight = 1
-url = "https://www.youtube.com/@BuildandBreakThroughPodcast"
-
-[[params.social]]
-name = "Spotify"
-icon = "fa fa-2x fa-spotify"
-weight = 1
-url = "https://open.spotify.com/show/52XL8Knn990EOL9g1SjAOa"
-
-[[params.social]]
-name = "LinkedIn"
-icon = "fa fa-2x fa-linkedin"
-weight = 3
-url = "https://www.linkedin.com/in/rhunterharris/"
+[[menus.main]]
+name = 'Writing'
+url = '/posts/'
+weight = 4

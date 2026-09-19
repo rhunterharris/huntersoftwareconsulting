@@ -3,6 +3,7 @@ date = '2026-07-03T07:46:43-05:00'
 draft = false
 title = 'Feedback Loops upon Loops upon Loops'
 tags = ["engineering", "product", "leadership"]
+description = "How feedback loops shape product development and the way teams learn from the results of their work."
 +++
 
 I keep returning to loops lately, with my work with engineering organizations (and with how popular AI loops have been across LinkedIn).  When we look at much of nature, cycles are a fundamental constant.  Earth moves around the sun (giving us seasons).  Earth spins on its axis (giving us days).  The moon moves through the lunar cycle (giving us the tides and such).  Life has cycles as well, from infant to adult back to infant.
@@ -18,7 +19,7 @@ But what goes unacknowledged is the inter-departmental cycles.  Each of these cy
 
 But these are cycles, not feedback loops.  
 
-#### Virtuous Cycles
+## Virtuous Cycles
 
 So how does an organization strive towards bettering themselves with feedback loops?
 
@@ -28,7 +29,7 @@ Second, drive for positive outcomes.  Sales provides customer feedback to Engine
 
 It's important to note that none of this is free, and none of this is locally optimal.  If sales just focuses on closing deals ASAP, they might make more sales today, but they miss the opportunity of sales on the features that can't get built.  If engineering is overly focused on closing support tickets without real triage ("not a bug"), their KPIs might look better (especially if it's KLoC), but they lose the velocity they would have with less time spent on bugfixes.
 
-#### Vicious Cycles
+## Vicious Cycles
 
 Feedback loops can also bite.  I see one particular example frequently with AI.
 
@@ -38,7 +39,7 @@ Enter AI.  Execution goes drastically up.  Engineers close work faster than Prod
 
 There's always someone who does QA, and in this case it is the customer.  Churn goes up, KPIs go red, and pressure is put on engineering and product to fix the problem.  The flywheel turns,  execution is added, and strategy falls to the wayside.
 
-#### Local optima vs global optima
+## Local optima vs global optima
 
 Many startups fall flat on their face here.  They optimize for local speed - making each individual loop optimized, at the expense of cross communication.  locally maximized execution without any feedback - heads down, or siloed.  You can even see this within departments - when a single marketer is off on a project by themselves, or a single engineer.  They become experts, but wander the wilderness lost (and no one knows what they're doing, which limits their success).
 

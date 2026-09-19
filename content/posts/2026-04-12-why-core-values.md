@@ -3,11 +3,12 @@ date = '2026-04-12T16:46:43-05:00'
 draft = false
 title = 'Why Core Values?'
 tags = ["leadership"]
+description = "Why core values matter to the way a company makes decisions, hires people, and works together."
 +++
 
 Core values are a concept I return to time and time again, across the companies I advise.  And core values are surprisingly controversial to many founders.  Many would rather just work on something tactical and tactile, like building the product or making sales.  But even in a team of 1, culture and core values tend to raise their head.
 
-### Core values are decisions made in advance
+## Core values are decisions made in advance
 
 Do you think through every decision you make?  I imagine not.
 
@@ -15,14 +16,14 @@ Imagine deliberating anew every day - what toothpaste to use, what shampoo to us
 
 Extrapolate this to a company - what if for every decision, you have to gather stakeholders and hash out decisions anew?  Speed is a startup's first line of defense, and core values help maintain that.  Core values represent meetings not held and consensus that doesn't need to be rebuilt.
 
-### Core values keep the right people in, and the wrong people out
+## Core values keep the right people in, and the wrong people out
 
 Explicitly stating things (and writing them down) makes people accountable.  It also provides a basis for communication.  As an example, if your core value is "Work Hard" or "Work Smart", the employees you look to hire will be different.  I don't want to say either of these are better than the other - each has some advantages and disadvantages, depending on your company and culture.  That's why you need to determine this yourself.
 
 But in a company, if you have a mix of "Work Hard" and "Work Smart" aligned people, by default their internal values will drive unproductive conflict (and even politics).  You would probably prefer one over the other - having core values allows you to surface this decision clearly and concisely, instead of having it drag out with unproductive conflict over time.
 
 
-### Core values create culture, and culture cascades
+## Core values create culture, and culture cascades
 
 THe popular saying is "culture eats strategy for breakfast" (and similarly, strategy eats tactics).  Why is this?  because culture cascades.
 

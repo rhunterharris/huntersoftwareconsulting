@@ -1,0 +1,12 @@
+{{- $description := .Description -}}
+{{- if not $description -}}
+  {{- if .IsPage -}}
+    {{- $plain := .Plain | replaceRE `\s+` " " | strings.TrimSpace -}}
+    {{- $sentences := findRE `^.{35,175}?[.!?](?:\s|$)` $plain 1 -}}
+    {{- if $sentences -}}{{- $description = index $sentences 0 | strings.TrimSpace -}}
+    {{- else -}}{{- $description = $plain | truncate 170 -}}{{- end -}}
+  {{- else if eq .Kind "term" -}}{{- $description = printf "Essays by Hunter Harris about %s. Explore product decisions, engineering leadership, and customer value." .Title -}}
+  {{- else if eq .Kind "taxonomy" -}}{{- $description = "Browse topics in Hunter Harris's writing about product, technology, and building a software business." -}}
+  {{- else -}}{{- $description = .Site.Params.description -}}{{- end -}}
+{{- end -}}
+{{- return ($description | plainify | htmlUnescape | replaceRE `\s+` " " | strings.TrimSpace) -}}

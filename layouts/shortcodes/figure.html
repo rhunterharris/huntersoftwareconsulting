@@ -1,0 +1,6 @@
+{{- $src := .Get "src" -}}
+{{- with .Page.Resources.GetMatch $src -}}{{- $src = .RelPermalink -}}{{- end -}}
+<figure>
+  <img src="{{ $src | safeURL }}" alt="{{ .Get "alt" | default (.Get "title") }}"{{ with .Get "width" }} width="{{ . }}"{{ end }} loading="lazy">
+  {{ if or (.Get "title") (.Get "caption") }}<figcaption>{{ with .Get "title" }}{{ . }}{{ end }}{{ with .Get "caption" }} {{ . | markdownify }}{{ end }}</figcaption>{{ end }}
+</figure>

@@ -1,0 +1,1 @@
+<ol class="engagement-steps">{{ range $i, $step := .Site.Data.engagement.steps }}<li><div class="step-label"><span class="step-number">0{{ add $i 1 }}</span><h3>{{ $step.name }}</h3></div><div><p>{{ $step.action }}</p><p class="step-output"><strong>Intended outcome:</strong> {{ $step.outcome }}</p></div></li>{{ end }}</ol>

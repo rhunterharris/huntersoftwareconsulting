@@ -4,15 +4,16 @@ draft = false
 title = 'The Full Rewrite: AI edition'
 tags = ["engineering", "ai", "process", "product"]
 slug = "ai-full-rewrite"
+description = "The engineering, product, and project risks of a full rewrite, and why AI does not remove the need to manage them."
 +++
 
 I've had full rewrites come up several times recently, and so I wanted to write about them.  The full rewrite is a kind of siren song - beckoning on the horizon is a future with higher velocity and lower technical debt.  But actually doing one is one of the riskiest types of projects and organization can take on.  The topic has been covered extensively, and yet it recurs, often, for good reasons.  One fundamental question is - has AI & AI assisted coding changed the space?  I'll look at different types of risk in 3 areas to try to unpack this.
 
-### Engineering Risk
+## Engineering Risk
 
 This is the easiest part!  There is essentially no engineering (feasibility) risk - you're reimplementing all your functionality.  All your functionality exists.  Therefore it is possible.  There does exist risk in changing languages and changing architectural patterns, but the basic functionality on a behavioural level is proven.  You can strategically opt into additional risk where it makes sense (for example, for performance).
 
-### Product Management Risk
+## Product Management Risk
 
 This is difficult to disentangle from Project Management Risk, but I'll try.
 
@@ -20,11 +21,11 @@ To do this project, some amount of capacity must be allocated to rebuilding what
 
 Add to this timelines - if you're a 10 year old company, by default you should expect about 10 years worth of work for a rebuild!  In reality this is a hazy upper limit that does not account for staffing changes, but the point of the timeline stands.
 
-### Project Management Risk
+## Project Management Risk
 
 This is the big one.  Given the engineering incentives (boring, cost center, just rebuilding), and the Product incentives (cost center, not customer centric, inwardly focused), there is a high likelihood of team members or stakeholders trying to deprioritize the project, especially if it goes badly.  As such, the formative parts of the project are critical.  Several major patterns emerge:
 
-#### Strangler Fig Pattern
+### Strangler Fig Pattern
 
 This is the classic solution to the full rewrite.  Replace the system in pieces, incrementally.  This relieves pressure as product initiatives can advance, while things under the hood can be swapped.  It also favors smaller changes, so the project can be put on the backburner and returned.  That said, it can be difficult to significantly change code quality or switch languages with this approach.
 

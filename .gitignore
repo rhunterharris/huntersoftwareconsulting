@@ -7,3 +7,8 @@ hugo_stats.json
 # Temporary lock file while building.
 /.hugo_build.lock
 .gstack/
+
+# Local review evidence and Python bytecode are not publication assets.
+/docs/website-review/
+__pycache__/
+*.pyc

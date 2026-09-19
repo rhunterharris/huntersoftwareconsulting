@@ -1,0 +1,24 @@
+[[steps]]
+name = 'Diagnose'
+action = "Agree on the business goal. Talk with customers and the team, then examine the roadmap, code and spend to find what's getting in the way."
+outcome = 'You can see where revenue is being lost, what waste is costing you, and which customer problems deserve investment.'
+
+[[steps]]
+name = 'Redirect'
+action = 'Turn the findings into priorities. Stop or redirect low-return work, review contractor spend, and decide what the team tackles next.'
+outcome = 'Less cash goes to work that cannot justify its cost. The team is focused on opportunities with a credible return.'
+
+[[steps]]
+name = 'Lead'
+action = "Lead reviews and delivery decisions. Keep the team's work tied to the business goal, and address what is holding it back."
+outcome = 'Customers can buy, stay, or get more value because the problems standing in their way have been addressed.'
+
+[[steps]]
+name = 'Elevate'
+action = 'Prepare an internal lead to run planning, reviews and progress tracking, so ownership moves into your team.'
+outcome = 'The founder can step out of daily technical management. An internal lead owns the decisions and keeps the team focused on results.'
+
+[[steps]]
+name = 'Handoff'
+action = 'Review progress against where we started. Leave the founder and internal lead with the practices and signals to keep it working.'
+outcome = 'The business has an internal owner for the improvements and evidence of progress toward its goals. You can judge whether the investment is still paying off.'

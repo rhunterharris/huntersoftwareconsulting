@@ -3,6 +3,7 @@ date = '2026-04-27T07:46:43-05:00'
 draft = false
 title = 'From Anthropic Toward Pi (for now)'
 tags = ["engineering", "ai"]
+description = "Hunter's account of moving his AI development workflow from Anthropic tools toward Pi, and the tradeoffs behind that choice."
 +++
 
 I really see this moment as an inflection point (as so many recent moments have been).  And actually that's overstating it - the moment was a few weeks ago with Opus 4.7.  I see us moving towards another period of tool flux.

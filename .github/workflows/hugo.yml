@@ -84,6 +84,8 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
+      - name: Validate generated pages
+        run: python3 scripts/check_site.py public --base-url "${{ steps.pages.outputs.base_url }}/"
       - name: Cache save
         id: cache-save
         uses: actions/cache/save@v5

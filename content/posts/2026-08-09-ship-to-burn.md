@@ -3,6 +3,8 @@ date = '2026-08-09T07:46:43-05:00'
 draft = false
 title = 'Ship to Burn'
 tags = ["process", "leadership", "product"]
+description = "Separate work that answers a customer question, work that earns revenue, and work that consumes effort without creating value."
+offerContext = "When the roadmap is consuming effort without helping revenue or retention, the first decision is what the team should work on."
 +++
 
 Recently I had the pleasure of taking a workshop by [Jeff Patton](https://jpattonassociates.com/).  We covered a ton of concepts and practices that I had experienced firsthand.  Two pithy terms he uses are "build to learn" and "build to earn".  You might notice this is the foundation of [Dual Track Development](https://jpattonassociates.com/dual-track-development/)You can read some writing about it [here](https://www.svpg.com/build-to-learn-vs-build-to-earn/) for example.  I'll cover the two for you briefly before covering a third category that I consider the bane of my existence - one that keeps recurring too.

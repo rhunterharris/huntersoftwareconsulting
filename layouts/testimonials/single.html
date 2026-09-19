@@ -1,0 +1,3 @@
+{{ define "content" }}
+<article class="wrap article-shell"><header class="page-heading"><p class="eyebrow">Founder feedback / {{ .Params.feedbackType | default "Advising" }}</p><h1>{{ .Title }}</h1><p class="page-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time></p></header><div class="prose testimonial-body"><p class="context-note">A recommendation from my work advising founders.</p><div class="testimonial-text">{{ .Content }}</div><p class="back-link"><a href="{{ "/testimonials/" | relURL }}">← All founder feedback</a></p><p>Explore more <a href="{{ "/pages/about-me/#consulting-work" | relURL }}">business and customer outcomes</a> from my product and technology work.</p></div></article>
+{{ end }}

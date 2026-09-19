@@ -4,15 +4,16 @@ draft = false
 title = 'Our Culture & Engineering Integration'
 tags = ["leadership", "engineering"]
 slug = "our-culture-engineering-integration"
+description = "Why engineering needs contact with customers, sales, and the rest of the business to make useful product decisions."
 +++
 
 Our corporate culture today has a recurring message that I think is extremely problematic: that Engineering should be special and different from other organizations.  This has a number of knock-on effects across departments that are problematic.
 
-#### What is Engineering?
+## What is Engineering?
 
 At its core, Engineering is a practice of communication.  First, communication starts within oneself, by forming ideas and hypotheses, often from reading and understanding code.  Second, communication extends to others, where hypotheses are discussed, architectures decided on, patterns chosen, and decisions made.  Finally, communication extends to the computer, which is instructed how to achieve certain objectives through code.
 
-#### Why is Engineering siloed?
+## Why is Engineering siloed?
 
 This is a complicated question.
 
@@ -22,7 +23,7 @@ But this isn't comprehensive enough.  There is a saying "familiarity breeds cont
 
 This attitude can also extend to compensation, in cases where engineers are the only employees with equity.
 
-#### Why is this a problem?
+## Why is this a problem?
 
 Engineering is the art of solving problems - most usually, via code.  If engineers are unfamiliar with the problems to be solved, they cannot choose the best solution.  And in fact, if one is unfamiliar with a problem space, they may have solve the wrong problem altogether.
 
@@ -30,7 +31,7 @@ Engineers are often one of if not the most expensive resources at your company's
 
 Misalignment on compensation also has subtle cultural effects - instead of fostering camaraderie, departments can view engineering with hostility if they're the only ones compensated with equity.  As a result, the necessary information from other departments can fail to reach engineering, for execution.
 
-##### How to solve this?
+### How to solve this?
 
 If you intend to solve this, begin by building bridges.
 

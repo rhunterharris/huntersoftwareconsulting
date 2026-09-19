@@ -3,6 +3,7 @@ date = '2026-09-06T07:46:43-05:00'
 draft = false
 title = 'Bigger is not Better'
 tags = ["product", "engineering", "leadership"]
+description = "A look at the tradeoffs of growing a company, and why bigger does not automatically mean better."
 +++
 
 Bigger is better, right?  Bigger company, more engineers, more product managers, more output.  That's unequivocally good, right?  Well, I think we all know that this isn't the case at large, but we still desire more and more and more.

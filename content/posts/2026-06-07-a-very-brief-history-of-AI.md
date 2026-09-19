@@ -3,6 +3,7 @@ date = '2026-06-07T07:46:43-05:00'
 draft = false
 title = 'A Very Brief History of AI'
 tags = ["engineering", "process"]
+description = "Hunter's short account of the shift from language models and prompting to agents, context, and development harnesses."
 +++
 
 One thing that strikes me recently is how disparate AI adoption has become.  To that effect, I'd like to recap some of the recent eras of AI we've seen.  As a note, I'm not trying to capture the entire history of machine learning or artificial intelligence.  I'm more focused on "AI" as we currently refer to it - LLMs.  I hope to taxonomize and identify a few key concepts that have appeared as a result. Do note that these periods are rough - some people were ahead of the game and many were behind.

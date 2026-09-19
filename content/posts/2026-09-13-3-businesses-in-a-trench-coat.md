@@ -3,6 +3,7 @@ date = '2026-09-06T07:46:43-05:00'
 draft = false
 title = '3 Side Hustles In a Trench Coat'
 tags = ["product", "leadership"]
+description = "Why combining businesses and adding product lines deserves a closer look at how the pieces fit together."
 +++
 
 So, I listen to a lot of pitches.  One thing that I notice frequently is that there are pitches that are a business, and pitches that are 3 side hustles in a trench coat.  This is a little hard to describe, but you know it when you see it.  It's the B2B company that nonetheless has a B2C social media application tacked on.  Or the product that does everything.

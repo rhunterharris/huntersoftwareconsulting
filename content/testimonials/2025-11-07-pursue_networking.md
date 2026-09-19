@@ -1,7 +1,13 @@
 +++
 date = '2025-11-07T12:58:43-05:00'
 draft = false
-title = 'Pursue Networking'
+title = "Pursue Networking on making technical decisions"
+description = "Kolin Simon of Pursue Networking describes how Hunter Harris helped him understand complex technical ideas as a non-technical founder."
+lastmod = '2026-09-18'
+quoteAuthor = "Kolin Simon"
+quoteRole = "CEO, Pursue Networking"
+feedbackType = "Advising"
+excerpt = "What makes Hunter truly unique is his ability to communicate complex technical ideas in a way that someone like me — a non-technical founder — can easily grasp."
 +++
 
 Hunter is in the elite category of advisors I’ve worked with, and for good reason. He’s incredibly technically savvy, with deep expertise in AI, back-end architecture, and managing development processes.

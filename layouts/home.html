@@ -1,0 +1,46 @@
+{{ define "content" }}
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap hero-stage">
+    <div class="hero-top">
+      <div class="hero-heading">
+        <p class="eyebrow">{{ .Params.eyebrow }}<span class="eyebrow-end">For B2B SaaS founders</span></p>
+        <h1 id="hero-title">{{ .Params.headlineOpening }} <span>{{ .Params.headlineFocus }}</span></h1>
+      </div>
+      <figure class="hero-portrait">{{ $photo := resources.Get "images/hunter-harris.png" }}{{ $small := $photo.Resize "480x webp q85" }}{{ $large := $photo.Resize "960x webp q85" }}<img src="{{ $small.RelPermalink }}" srcset="{{ $small.RelPermalink }} 480w, {{ $large.RelPermalink }} 960w" sizes="(max-width: 640px) 120px, (max-width: 900px) 35vw, 440px" alt="Hunter Harris" width="480" height="480" fetchpriority="high"><figcaption><strong>Hunter Harris</strong><span>12+ years in B2B SaaS</span></figcaption></figure>
+    </div>
+    <div class="hero-bottom">
+      <div class="hero-copy"><p class="hero-intro">Your team is busy.<br> The business is standing still.</p><p class="hero-offer">{{ .Params.offer }}</p></div>
+      <div class="hero-next"><a class="button button-light" href="#ship-what-sells">Explore the 90-day engagement <span aria-hidden="true">↗</span></a><a class="text-link" href="{{ "/pages/services/#take-the-next-step" | relURL }}">Let's talk about your business <span aria-hidden="true">↗</span></a><p class="hero-detail">Your existing team. Product and technology under one owner.</p></div>
+    </div>
+    <div class="hero-baseline"><span>Hunter Harris <span class="baseline-divider">/</span> Fractional CPTO</span><a href="#experience">Meet the person behind the work <span aria-hidden="true">↓</span></a></div>
+  </div>
+</section>
+
+<div class="career-note"><div class="wrap"><p>{{ .Site.Data.experience.homepage.career_note }}</p><a class="text-link" href="{{ "/pages/about-me/#consulting-work" | relURL }}">{{ .Site.Data.experience.homepage.career_link }} <span aria-hidden="true">↗</span></a></div></div>
+
+<section id="experience" class="wrap section founder-section" aria-labelledby="founder-title">
+  <div class="founder-heading"><p class="eyebrow">Product and technology, together</p><h2 id="founder-title">{{ .Site.Data.experience.homepage.founder_title }}</h2><a class="text-link" href="{{ "/pages/about-me/" | relURL }}">Explore my experience <span aria-hidden="true">↗</span></a></div>
+  <div class="founder-copy">{{ range .Site.Data.experience.homepage.founder_paragraphs }}<p>{{ . }}</p>{{ end }}</div>
+  <div class="work-examples"><p class="eyebrow">Business and customer impact</p><div class="work-example-grid">{{ range .Site.Data.experience.highlights }}<div><h3>{{ .title }}</h3><p>{{ .summary }}</p><a class="text-link" href="{{ .url | relURL }}">{{ .linkText }} <span aria-hidden="true">↗</span></a></div>{{ end }}</div></div>
+</section>
+
+<section id="ship-what-sells" class="engagement-preview" aria-labelledby="engagement-title"><div class="wrap section">
+  <div class="engagement-intro">
+    <div><p class="eyebrow">Ship What Sells</p><h2 id="engagement-title">90 days focused on business results.</h2></div>
+    <div><p>The goal: more of the right customers buying and staying, less money wasted, and a team that can keep it working under its own lead. We agree what success means for your business and measure progress against where you started.</p><dl class="engagement-facts"><div><dt>My role</dt><dd>Interim product &amp; technology leadership</dd></div><div><dt>Best fit</dt><dd>Non-technical B2B SaaS founders, $1M+ annual engineering spend, no CTO or VP of Engineering</dd></div></dl><a class="text-link" href="{{ "/pages/services/" | relURL }}">Outcomes, scope &amp; working relationship <span aria-hidden="true">↗</span></a></div>
+  </div>
+  <div class="phase-sequence"><p class="eyebrow" id="sequence-label">The sequence</p><ol aria-labelledby="sequence-label">{{ range $i, $step := .Site.Data.engagement.steps }}
+    <li class="phase"><div class="phase-heading"><span class="phase-number" aria-hidden="true">0{{ add $i 1 }}</span><h3>{{ $step.name }}</h3></div><div class="phase-content"><p class="phase-action">{{ $step.action }}</p><div class="phase-output"><p class="eyebrow">Intended outcome</p><p>{{ $step.outcome }}</p></div></div></li>
+  {{ end }}</ol><p class="sequence-note">The team builds. I set direction, make decisions, and lead the work.</p></div>
+</div></section>
+
+{{ $feedback := where .Site.RegularPages "Section" "testimonials" }}
+{{ $featured := where $feedback "Params.homepageFeatured" true }}
+{{ if not $featured }}{{ $featured = $feedback }}{{ end }}
+{{ range first 1 $featured.ByDate.Reverse }}
+<section class="wrap section evidence-section" aria-labelledby="evidence-title"><div class="evidence-heading"><p class="eyebrow">Founder recommendations</p><h2 id="evidence-title">In their own words.</h2><a class="text-link" href="{{ "/testimonials/" | relURL }}">More founder feedback <span aria-hidden="true">↗</span></a></div><figure class="quote"><p class="eyebrow">{{ .Params.feedbackType }}</p><blockquote><p>{{ .Params.excerpt }}</p></blockquote><figcaption>{{ .Params.quoteAuthor }} <span>{{ .Params.quoteRole }}</span></figcaption><a href="{{ .RelPermalink }}">Read the full recommendation <span aria-hidden="true">↗</span></a></figure></section>
+{{ end }}
+
+<section class="reading-section" aria-labelledby="reading-title"><div class="wrap section"><div class="section-heading"><div><p class="eyebrow">Product, technology &amp; the business</p><h2 id="reading-title">Latest writing.</h2></div><a class="text-link" href="{{ "/posts/" | relURL }}">All writing <span aria-hidden="true">↗</span></a></div><div class="reading-grid">{{ range first 3 (where .Site.RegularPages "Section" "posts").ByDate.Reverse }}<article><time class="eyebrow" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ partial "site/description.html" . }}</p></article>{{ end }}</div></div></section>
+{{ partial "site/conversation.html" . }}
+{{ end }}

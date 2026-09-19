@@ -3,6 +3,7 @@ date = '2026-06-28T07:46:43-05:00'
 draft = false
 title = 'Cowboys, Frontiersmen, Settlers, Townspeople, Cityfolk'
 tags = ["engineering", "product", "leadership"]
+description = "How the people and working habits a company needs change from its first build through product-market fit and growth."
 +++
 
 "What got you here won't get you there" applies not only to founders, but to the organizations they build.  An underappreciated aspect of this is risk and chaos, and how it appeals to discrete personalities.  I consider most of these archetype to respond mostly to certain levels of organizational chaos - and as such, there are areas where they thrive, and areas where they are out of their depth.  I'll hearken back partially to Wardley's [Pioneers, Settlers, Town Planners](https://blog.gardeviance.org/2015/03/on-pioneers-settlers-town-planners-and.html) as part of this.

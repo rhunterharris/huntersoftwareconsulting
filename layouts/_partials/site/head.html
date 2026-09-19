@@ -1,0 +1,33 @@
+{{ $canonical := partial "site/canonical.html" . }}
+{{ $description := partial "site/description.html" . }}
+{{ $title := .Params.seoTitle | default .Title }}
+{{ if in (slice "section" "term" "taxonomy") .Kind }}{{ if gt .Paginator.PageNumber 1 }}{{ $title = printf "%s · Page %d" $title .Paginator.PageNumber }}{{ end }}{{ end }}
+{{ $portrait := (resources.Get "images/hunter-harris.png").Resize "960x webp q85" }}
+{{ $image := (.Params.image | default $portrait.RelPermalink) | absURL }}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<link rel="preload" href="{{ "/fonts/archivo-latin-variable.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+<script>document.documentElement.classList.add('js');try{const theme=localStorage.getItem('hsc-theme');if(theme==='light'||theme==='dark')document.documentElement.dataset.theme=theme;}catch(_){}</script>
+<title>{{ $title }} | {{ .Site.Title }}</title>
+<meta name="description" content="{{ $description }}">
+<meta name="author" content="{{ .Site.Params.author }}">
+<link rel="canonical" href="{{ $canonical }}">
+{{ if or .Params.noindex (in (slice "taxonomy" "term" "404") .Kind) }}<meta name="robots" content="noindex, follow">{{ end }}
+<meta property="og:type" content="{{ if and .IsPage (eq .Section "posts") }}article{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:url" content="{{ $canonical }}">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="{{ $image }}">
+<meta property="og:image:alt" content="{{ .Params.imageAlt | default .Site.Params.imageAlt }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $description }}">
+<meta name="twitter:image" content="{{ $image }}">
+<meta name="twitter:image:alt" content="{{ .Params.imageAlt | default .Site.Params.imageAlt }}">
+{{ range .AlternativeOutputFormats }}<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title }}">{{ end }}
+{{ $css := resources.Get "css/site.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{ partial "site/structured-data.html" . }}

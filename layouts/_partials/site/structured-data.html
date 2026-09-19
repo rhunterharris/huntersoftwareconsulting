@@ -1,0 +1,16 @@
+{{- $home := .Site.Home.Permalink -}}
+{{- $personID := printf "%s#hunter-harris" $home -}}
+{{- $orgID := printf "%s#organization" $home -}}
+{{- $canonical := partial "site/canonical.html" . -}}
+{{- $portrait := (resources.Get "images/hunter-harris.png").Resize "960x webp q85" -}}
+{{- $person := dict "@type" "Person" "@id" $personID "name" "Hunter Harris" "url" ("/pages/about-me/" | absURL) "image" ($portrait.RelPermalink | absURL) "sameAs" (slice "https://www.linkedin.com/in/rhunterharris/" "https://github.com/rhunterharris/") -}}
+{{- $org := dict "@type" "Organization" "@id" $orgID "name" .Site.Title "url" $home "description" .Site.Params.description "founder" (dict "@id" $personID) "email" .Site.Params.email -}}
+{{- $page := dict "@type" "WebPage" "@id" (printf "%s#webpage" $canonical) "url" $canonical "name" .Title "description" (partial "site/description.html" .) "publisher" (dict "@id" $orgID) -}}
+{{- if .Params.lastmod -}}{{- $page = merge $page (dict "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")) -}}{{- end -}}
+{{- $graph := slice $org $person $page -}}
+{{- if and .IsPage (eq .Section "posts") -}}
+  {{- $article := dict "@type" "BlogPosting" "@id" (printf "%s#article" $canonical) "headline" .Title "description" (partial "site/description.html" .) "url" $canonical "mainEntityOfPage" (dict "@id" (printf "%s#webpage" $canonical)) "author" (dict "@id" $personID) "publisher" (dict "@id" $orgID) "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") -}}
+  {{- if .Params.lastmod -}}{{- $article = merge $article (dict "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")) -}}{{- end -}}
+  {{- $graph = $graph | append $article -}}
+{{- end -}}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS }}</script>

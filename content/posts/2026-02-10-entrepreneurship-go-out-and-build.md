@@ -4,6 +4,7 @@ draft = false
 title = 'Go Out and Build'
 tags = ["leadership"]
 slug = "entrepreneurship-go-out-and-build"
+description = "A practical argument for building, getting feedback, and trying again instead of waiting for a perfect plan."
 +++
 
 Do you have an idea for an app?  For a website?  For a chrome extension? For a solution to a problem?
@@ -26,7 +27,7 @@ If multiple people complain about something, fix it.  If not, don't.
 
 Keep at it.  Charge money for it.
 
-# Learn. Build. Grow.
+## Learn. Build. Grow.
 
 Codex.  Cursor.  Claude Code.
 

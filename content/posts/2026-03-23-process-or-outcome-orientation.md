@@ -4,6 +4,7 @@ draft = false
 title = 'Process or Outcome Orientation is the Wrong Framing'
 tags = ["engineering", "process"]
 slug = "process-outcome-orientation"
+description = "An examination of input and output orientation, and how to think about the work a team measures and rewards."
 +++
 
 Process orientation vs outcome orientation has been debated endlessly over the years.  In fact, aspects of this discussion can be traced back to Marcus Aurelius's Meditations.  The current thread seems to draw back to Peter Drucker's "Management by Objectives" in The Practice of Management.  But what if this is the wrong framing?  Process vs Objective frames this discussion as a focus on ROI (outcomes), or on "mindlessly" executing a playbook.  But how do you reach repeatable successful ROI?  With a repeatable process.  So process and objectives are actually more tightly bound than it seems.

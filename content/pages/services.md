@@ -1,40 +1,66 @@
 ---
+title: Ship What Sells
+description: "Ship What Sells: 90 days of product and technology leadership focused on revenue, retention, and margin, with your existing B2B SaaS team."
 date: 2026-02-02
+lastmod: 2026-09-18
+eyebrow: The engagement
+intro: "Turn the team you already have into a source of revenue and growth."
+toc: true
+contactCTA: true
+seoTitle: "Ship What Sells: Fractional CPTO Services"
 ---
-Services
-========
 
-Most of the companies I talk to are spending a fortune on engineering and can't say what they're getting for it. The team is busy. Nobody is lazy. And almost none of the work turns into revenue.
+Your team can be shipping every week while deals stall, customers leave, and runway shrinks. The investment needs to earn its place in the business.
 
-That's a direction problem, not a people problem, and it easily costs a million dollars a year.
+Ship What Sells is a three-month engagement with me as your interim Chief Product Technology Officer (CPTO). The goal is a team that helps you win and keep customers, spends where it can make a difference, and keeps doing that under its own lead. I take responsibility for connecting customer needs, product priorities, and engineering decisions to that result.
 
-I come in for 90 days as your interim product-technology leader and turn that around. I call it Ship What Sells.
+## Who this is for
 
-### Ship What Sells
+- You're the non-technical founder or CEO of a B2B SaaS company.
+- You're spending at least $1M a year on engineering.
+- You don't have a CTO or VP of Engineering owning the work.
+- Missed revenue, churn, or product delays have made the cost of waiting hard to ignore.
 
-| Step | What happens | What you get |
-|------|--------------|--------------|
-| **Diagnose** (weeks 1–2) | I read the code, pull requests, roadmap, spend, and team, and name the real constraints with evidence | A discovery summary, a 90-day metrics baseline, and a plan you can act on |
-| **Redirect** (weeks 3–4) | Idle contractors cut, low-return projects killed, the team pointed at the work that pays | Waste stops and runway extends |
-| **Lead** (weeks 5–8) | The delivery cadence goes in — sprints, standup, planning, reviews, demos — and I steer through review of the team's actual work | Progress you can see weekly, and a midpoint review against the baseline |
-| **Elevate** (weeks 9–10) | A lead on your own payroll takes over the cadence and the tracking, with coaching until they own it | A team that runs this without me |
-| **Handoff** (weeks 11–12) | Playbook, leading-signals one-pager, before-and-after metrics, and a workshop with you and your lead | A running org you can maintain, and proof of what changed |
+If you're the COO or chief of staff helping the founder work through this, you're welcome to start the conversation. Engineering spend and the leadership gap matter more than your funding stage.
 
-### Who this is for
+## What success looks like {#the-changes-we-work-toward}
 
-- Non-technical founder or CEO of a B2B SaaS company
-- Spending seven figures a year on engineering
-- No technical leadership in the building
-- Revenue has missed, churn has started, and runway is now the conversation
+We define success in terms of what changes for the business and its customers. The priorities depend on where you're losing money or leaving it on the table.
 
-### Who it isn't for
+**More of the right customers buying.** Buyers can get the value they need and have a reason to pay. Opportunities that were stalling on the product can turn into revenue.
 
-If you have technical leadership you trust and things are working, you don't need me. Why fix what isn't broken?
+**More customers getting enough value to stay.** Customers can accomplish what they bought the product to do. Their experience supports the next renewal instead of putting it at risk.
 
-*Advisory and shorter engagements available on request.*
+**More runway from the money you have.** Less cash disappears into work that can't justify its cost. The team and budget serve the opportunities with a credible return.
 
-### Take the next step
+**A business that can keep improving without me.** An internal lead owns the decisions and the results. You can judge whether the investment is paying off without having to become the technical manager.
 
-If you're not sure where the money is going, [score your product-tech org in about seven minutes](https://hunter-software-consulting.beehiiv.com/products/the-product-tech-scorecard?utm_source=huntersoftwareconsulting.com&utm_medium=services&utm_campaign=ship-what-sells). The free scorecard shows which of six areas needs a closer look. A score is a starting point, not a diagnosis.
+We agree on the measures and targets before the work starts. When an opportunity is uncertain, we learn enough from customers to decide whether it deserves further investment. Progress means a better business result or better evidence for that decision.
 
-If a missed deal, churn, or a slipping revenue deadline has made this urgent, [book a 20-minute conversation](https://calendly.com/rhunterharris/20-minute-consultation?utm_source=huntersoftwareconsulting.com&utm_medium=services&utm_campaign=ship-what-sells) or [email me](mailto:hunter@huntersoftwareconsulting.com?subject=Ship%20What%20Sells%20from%20Services%20page). Tell me what's at risk. I'll tell you whether this is a problem I can help solve.
+This is leadership first, with occasional hands-on work to understand a problem or demonstrate an approach. Your existing team builds the product. Before we start, we agree on decision authority, including team and staffing decisions, and what success would look like.
+
+## The 90-day plan
+
+We agree on the business goal and the three-month objectives at the start. The sequence stays consistent; the time spent at each step depends on what we find.
+
+{{< engagement >}}
+
+## How we work together
+
+You should be able to tell whether customers are getting more value and whether that is improving the business. We review progress against the starting baseline and use what we learn to decide where the next investment belongs.
+
+That requires access to customers, the team, the code, and the numbers. I lead the decisions and hold the work to the agreed commercial goal. By the handoff, you and an internal lead should be able to keep making those calls yourselves.
+
+Scope and fees are agreed before the engagement starts. [Start with a conversation](#take-the-next-step) about what's at risk and what needs to change.
+
+## When another kind of help fits better
+
+If you need a vendor to supply an entire development team, this engagement won't cover that. If you already have technical leadership you trust, we should first understand what additional responsibility you'd want me to take on.
+
+Advisory and shorter engagements are available on request. [Explore the business and customer outcomes from my work](/pages/about-me/#consulting-work) to see whether the experience is relevant to your situation.
+
+## Take the next step
+
+[Book a 20-minute conversation](https://calendly.com/rhunterharris/20-minute-consultation?utm_source=huntersoftwareconsulting.com&utm_medium=services&utm_campaign=ship-what-sells) or [email me](mailto:hunter@huntersoftwareconsulting.com?subject=Ship%20What%20Sells%20from%20Services%20page). Tell me what's at risk, what you've tried, and who currently owns product and technology. I'll tell you whether this is a problem I can help solve.
+
+If you're still working out where to start, [see the free Product-Tech Scorecard](https://hunter-software-consulting.beehiiv.com/products/the-product-tech-scorecard?utm_source=huntersoftwareconsulting.com&utm_medium=services&utm_campaign=ship-what-sells). It covers six areas of your product-tech organization. A score is a starting point, not a diagnosis.

@@ -1,7 +1,13 @@
 +++
 date = '2026-05-08T10:58:43-05:00'
 draft = false
-title = 'AffordablePlacements'
+title = "AffordablePlacements on product planning and founder advice"
+description = "Samantha James of AffordablePlacements describes how Hunter Harris helped her decide where product development should begin and how to approach later phases."
+quoteAuthor = "Samantha James"
+quoteRole = "CEO, AffordablePlacements"
+feedbackType = "Advising"
+excerpt = "He helped me pinpoint exactly where to begin with development and mapped out a clear execution strategy for our future phases."
+lastmod = '2026-09-18'
 +++
 
 Hunter has been instrumental as I am working on building my product and scaling my business.  He has been an invaluable mentor to me as I've navigated a lot of challenges in the last six months while building/scaling my business. 

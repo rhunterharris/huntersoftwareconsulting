@@ -3,6 +3,7 @@ date = '2026-04-20T16:46:43-05:00'
 draft = false
 title = 'The Career Ladder'
 tags = ["recruitment"]
+description = "A look at engineering responsibilities from junior to staff, and how expectations change as engineers grow."
 +++
 
 One interesting failure I see in many startups is a lack of a career ladder.  The common refrain is "We're early and scrappy, we don't need hierarchy!" - and I'm inclined to agree!  But you also need to hire the right talent, which starts with a ladder.
@@ -13,7 +14,7 @@ A workable ladder starts with you and what you care about (and, what tactical pr
 
 Where to start?
 
-### From the bottom - Juniors
+## From the bottom - Juniors
 
 Start with the lowest level talent.  Define base capabilities and expectations.
 
@@ -27,7 +28,7 @@ Mentorable and coachable.
 
 Lives company values.
 
-### Next step up - Engineers
+## Next step up - Engineers
 
 What defines the next step up?  Responsibility and autonomy should grow.
 
@@ -41,7 +42,7 @@ Accessible to juniors
 
 Lives company values
 
-### Terminal step - Senior
+## Terminal step - Senior
 
 Senior is generally the first terminal role.  Fully autonomous, this is the apex of the typical IC role.
 
@@ -57,7 +58,7 @@ Actively mentors others
 
 Lives company values
 
-### And beyond - Staff+
+## And beyond - Staff+
 
 Staff+ is where things get weirder.  Staff+ has a number of archtypes - the Right Hand, Team (/Org) Lead, and so on.  For many startups, these roles are optional as well.
 
@@ -75,7 +76,7 @@ Mentors others
 
 Lives company values
 
-### And so on
+## And so on
 
 "This is too simple" is probably what you're saying now.  That is deliberate.  As I mentioned earlier, this should be tailored to your company's needs.  Maybe you have a category for "interaction with Support", or "Sales Enablement".  If you're a larger organization, you might have "Guild Leadership" or an internal talk track.  Build a framework for the skills you need.
 

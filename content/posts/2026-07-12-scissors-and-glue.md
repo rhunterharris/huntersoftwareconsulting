@@ -3,6 +3,7 @@ date = '2026-07-12T07:46:43-05:00'
 draft = false
 title = 'Scissors, Glue, and AI'
 tags = ["process", "leadership"]
+description = "Hunter's account of replacing a paper-based workflow with software, and what it taught him about useful technology."
 +++
 
 So, there's a story I frequently tell about my first "real" job.  I've thought about a pithy title for this, including something like "Efficiency is a Lie" or something otherwise provocative, but I'm not sure I believe that enough to use it.  That said, I'd like you to keep AI in mind as I tell this story.  I'll return to it at the end, but I hope you see the through-line.

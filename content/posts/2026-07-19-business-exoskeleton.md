@@ -3,6 +3,7 @@ date = '2026-07-19T07:46:43-05:00'
 draft = false
 title = 'Straight-Jackets and Exoskeletons'
 tags = ["process", "leadership"]
+description = "How trust, accountability, and transparency can help an organization give people agency instead of restricting it."
 +++
 
 It's overly pithy to reduce things to a binary, but I've done it before and I'll do it again.  I think there are two major categories of businesses - exoskeletons and straight-jackets.  This is to say, businesses (and more broadly, organizations) that largely empower the people within them, and ones that disempower them.

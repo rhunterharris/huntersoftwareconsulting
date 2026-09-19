@@ -3,11 +3,12 @@ date = '2026-08-30T07:46:43-05:00'
 draft = false
 title = 'Your Product Threatens Your Product'
 tags = ["product"]
+description = "How product-market fit, customer concentration, and product debt create difficult decisions for a growing software business."
 +++
 
 I periodically return to several ideas, as I talk to founders.  One central one, that seems especially relevant with AI, is that your product threatens your product.  This of course sounds a bit nonsensical when put that way, so let's dig in.
 
-### Product Market Fit is a Moving Target
+## Product Market Fit is a Moving Target
 
 Reaching Product Market Fit, or PMF, is obviously the goal of any product driven startup.  However, most startups view PMF not as a starting line, but as a finish line.  There's nothing sadder that watching a company get traction, start to succeed, then have the market slide out from underneath them - but this happens frequently.
 
@@ -15,7 +16,7 @@ Often, founders take the wrong lessons from their success.  Principally, most st
 
 The counterpart here is also just bad luck.  You can do everything right, and the market can move away from you.  Now, it's tautological, but I'd define great companies as ones to whom this doesn't happen - they maintain high luck surface area, they stay nimble, they stay hungry, they stay humble.  But the reality is that scaling a company and retaining those attributes is far from easy.  The ones that persist are the ones the scale, but scale judiciously, and scale not only their culture, but the meta culture - the culture of their culture.  This means judicious hiring and firing, and attending to culture with a severity.
 
-### A Customer Can Threaten Customers
+## A Customer Can Threaten Customers
 
 When I was at SalesLoft, one of the core values was "Customers first".  I don't recall if it was official, but we would frequently say internally "It's CustomerS first, NOT Customer First".  This is to say, individual customers are fallible and wrong, but you'd better damn well listen if a group of them are giving you feedback that even begins to rhyme.
 
@@ -23,11 +24,11 @@ A very typical danger (not outright failure, but severe danger) for startups in 
 
 So what is to be done?  Well, first off, don't walk away from a great deal just because of this risk.  It's future risk, and you probably have more acute risk in the form of solvency / roadmap.  What you do need to do is service CustomerS not the Customer.  That is to say, understand you customer deeply, and ship to their needs.  That means saying no to misaligned asks from large customers, so you can say yes to roadmap you need.  It's tough!  But it's doable.
 
-### If You Build It, You Must Support It
+## If You Build It, You Must Support It
 
 A third category is an emerging area called Product Debt.  It's Product's ugly twin to Technical Debt.  There's a number of facets where it appears, but the most acute one I see is with experimentation, features, and the bridge between them - feature flags.
 
-Feature flags can go very right.  As I've previously covered, Ship to Learn is vital for learning more about what you can and should be building.  A great way to do that is with small in-app prototypes, hidden by feature flags, and shown to interested, warm, or friendly customer.  In an ideal world, you roll out, test for a few weeks or months, and commit to GA (General Availability) or axe it and roll back.  In this case, several tests might be in flight to different demographics, allowing you to compare metrics and get feedback.
+Feature flags can go very right.  As I've previously covered, [Ship to Learn](/posts/2026-08-09-ship-to-burn/#ship-to-learn) is vital for learning more about what you can and should be building.  A great way to do that is with small in-app prototypes, hidden by feature flags, and shown to interested, warm, or friendly customer.  In an ideal world, you roll out, test for a few weeks or months, and commit to GA (General Availability) or axe it and roll back.  In this case, several tests might be in flight to different demographics, allowing you to compare metrics and get feedback.
 
 Of course, reality is rarely so clear cut.  What frequently happens is this - you have 3 demographics.  The largest section is more or less apathetic.  A section of customers is rabidly opposed to the feature, and threaten to churn if it is rolled out.  A third section is equally zealous for the feature, and threaten to churn if it is removed.  Now we reach a classic lose/lose: If we leave it as is, we accrue product debt that compounds each time we do this.  Or, we toss the dice, and piss off some customer cohort.
 

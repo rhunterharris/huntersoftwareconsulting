@@ -4,6 +4,8 @@ draft = false
 title = 'On the Iron Triangle'
 tags = ["engineering", "process", "product"]
 slug = "the-iron-triangle"
+description = "How scope, time, and resources constrain software delivery, and what leaders need to decide when those constraints collide."
+offerContext = "When missed delivery is putting revenue at risk, scope and priorities need an owner who can connect product decisions to the work."
 +++
 
 The Iron Triangle is a classic model of constraints.  According to the model, there are Quality, Time, and Cost.  Pick one, at most two.  But what if this model is inherently misleading?
