@@ -1,5 +1,5 @@
 +++
-date = '2026-09-06T07:46:43-05:00'
+date = '2026-09-13T07:46:43-05:00'
 draft = false
 title = '3 Side Hustles In a Trench Coat'
 tags = ["product", "leadership"]
