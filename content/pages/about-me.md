@@ -1,6 +1,6 @@
 ---
 title: "Product leadership that earns its keep"
-description: "Hunter Harris's product leadership at Presage Technologies, $25M in revenue at Owner.com, and customer retention and enterprise growth at Sendoso."
+description: "Hunter Harris's product work at Presage Technologies, $25M in revenue at Owner.com, and customer retention and enterprise growth at Sendoso."
 date: 2026-02-02
 lastmod: 2026-09-19
 eyebrow: Experience / Hunter Harris
@@ -15,9 +15,9 @@ The useful question is where the business is losing money or customers, and what
 
 ## Where that judgment paid dividends {#consulting-work}
 
-### Presage Technologies: building a product organization around customer outcomes {#presage-technologies}
+### Presage Technologies: product work built around customer outcomes {#presage-technologies}
 
-I lead the emerging product organization at [Presage Technologies](https://presagetech.com/). I own customer discovery, product direction, and the work with engineering to turn customer needs into a product people can use and trust.
+At [Presage Technologies](https://presagetech.com/), I work on product: customer discovery, shaping product direction, and working with engineering to turn customer needs into a product people can use and trust.
 
 {{< section-anchor "strengthening-a-research-partnership" >}}
 
