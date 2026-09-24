@@ -1,7 +1,7 @@
 +++
 date = '2026-09-24T07:46:43-05:00'
 draft = false
-title = 'You're holding AI wrong'
+title = "You're holding AI wrong"
 tags = ["product", "leadership"]
 description = "AI can be used to productive ends.  But at the same time, I see most organizations using AI for output instead of results."
 +++
