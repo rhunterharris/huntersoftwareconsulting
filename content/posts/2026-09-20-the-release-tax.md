@@ -3,7 +3,7 @@ date = '2026-09-20T07:46:43-05:00'
 draft = false
 title = 'The Release Tax'
 tags = ["product", "leadership", "engineering"]
-description = ""
+description = "Your release process is table stakes.  But doing it wrong may have a larger cost than you realize."
 +++
 
 I've had a rough week.  One organization I'm associated with really struggled with their release.  In my humble opinion, you're moving slow if you don't ship every day - calibrated across orgs, that means I want to scale deployment roughly linearly with headcount.  Some people will be on large initiatives that take a while to ship, others will ship 15x in a day, so I've observed it to be a valid baseline.  This client takes about 9 days average to ship, for a team of 9. This is also obviously complicated by AI velocity - each release is large and bulky (we are fixing this), and as a result high risk, with many changes.  But the release itself was a 4 day marathon, shared among a set of engineers responsible for the release.

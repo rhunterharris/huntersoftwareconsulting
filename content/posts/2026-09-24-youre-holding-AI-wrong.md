@@ -3,7 +3,7 @@ date = '2026-09-24T07:46:43-05:00'
 draft = false
 title = 'You're holding AI wrong'
 tags = ["product", "leadership"]
-description = ""
+description = "AI can be used to productive ends.  But at the same time, I see most organizations using AI for output instead of results."
 +++
 
 I'd like to lead with - I use AI very actively.  As we speak (well, as I write), I have 7 discrete projects running X (X being a large number) of agents doing forward development.  Am I moving faster than I was pre-AI?  Sure.  Somewhat.  Probably not double - I feel like the 2-30% increase seems about right.  20-35% in what matters most, but it does allow me to do more "stuff" in parallel.  But today, I'm not talking about that.  I'm here to talk about how I actually used AI to get stuff done, very rapidly.
