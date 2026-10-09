@@ -75,6 +75,18 @@ But even then, if the project starts off track (option 1), you'll just scale cha
 
 So plan properly, early, and start with the right people, and let them complete the work.
 
+## Visibility
+
+We've covered planning so far, now let's talk about reporting.
+
+Everything comes back to fast feedback loops.  Where are we?  Where do we go next?  A good starting point for this visibility is a weekly or biweekly update.  Don't just wait for updates, check in regularly (but not so regularly that you interrupt work).
+
+I'm usually looking for three things: what is the scope of the project (the map), where are we (the location), and what did we do/not do the last time period (velocity).  That gives me a picture - based on this rate of change, are we going to get where we want to go by the date?  At this point, you're in flight, so as we just discussed, ideally you avoid changing resources.  So that leaves you week by week with a choice: do we need to move dates, or do we need to move scope?  This should be a regular conversation you have.
+
+I'm also looking for a counterpart here: a regular demo, preferably in production.  This allows me to verify exactly what code is actually complete, and what that code actually does.  Is it done?  Is it overly complex?  Does it do what is says on the tin?  The proof is in the pudding as they say.  There is no substitute for regular demos - and they don't have to be user facing.  Just show off progress and the cool things you've built.
+
+Demos have a great function when they're open as well - Technology tends to be divorced from the rest of the company.  This is a great chance for your team to hear praise for what they've built and excitement over the difference it will make for others in the company and among your customers.  It can be a massive morale boost.
+
 ## Conclusions
 
-Deadlines do not have to suck.  If your deadlines suck, you should think carefully about why that is. Sort through which ones matter and which ones do not.  And if the deadline doesn't matter... just let it go.  Focus on real revenue and real consequences.  Don't thrash your team just because you're a little impatient.
+Deadlines do not have to suck.  If your deadlines suck, you should think carefully about why that is. Sort through which ones matter and which ones do not.  And if the deadline doesn't matter... just let it go.  Focus on real revenue and real consequences.  Don't thrash your team just because you're impatient.
