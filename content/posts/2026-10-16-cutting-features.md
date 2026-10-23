@@ -1,5 +1,5 @@
 +++
-date = '2026-10-09T0:03:43-05:00'
+date = '2026-10-16T0:03:43-05:00'
 draft = false
 title = "What Features Get Cut?"
 tags = ["leadership", "product"]
