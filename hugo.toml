@@ -17,6 +17,8 @@ email = 'hunter@huntersoftwareconsulting.com'
 bookingURL = 'https://calendly.com/rhunterharris/20-minute-consultation'
 scorecardURL = 'https://hunter-software-consulting.beehiiv.com/products/the-product-tech-scorecard'
 newsletterURL = 'https://hunter-software-consulting.beehiiv.com/'
+# Beehiiv subscribe form embed (Grow > Subscribe forms > Embed), e.g. 'https://embeds.beehiiv.com/<form-id>?slim=true'. Empty hides the footer form.
+newsletterEmbedURL = ''
 imageAlt = 'Hunter Harris'
 
 [taxonomies]

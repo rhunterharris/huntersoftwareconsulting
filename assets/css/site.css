@@ -293,6 +293,16 @@ h3 {
 .footer-grid .eyebrow {
   margin-bottom:.4rem;
 }
+.footer-subscribe {
+  margin-top:2rem;
+  max-width:28rem;
+}
+.footer-subscribe iframe {
+  display:block;
+  width:100%;
+  border:0;
+  background:transparent;
+}
 .footer-bottom {
   padding-block:1.5rem;
   border-top:1px solid var(--line);
