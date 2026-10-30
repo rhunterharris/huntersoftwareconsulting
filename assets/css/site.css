@@ -300,6 +300,10 @@ h3 {
 .footer-subscribe .eyebrow {
   display:block;
 }
+/* Beehiiv's form frame has a light page; matching its scheme keeps it transparent on the dark theme. */
+.footer-subscribe iframe {
+  color-scheme:light;
+}
 .footer-bottom {
   padding-block:1.5rem;
   border-top:1px solid var(--line);
