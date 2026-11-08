@@ -1,7 +1,7 @@
 +++
 date = '2026-11-08T0:03:43-05:00'
 draft = false
-title = "The Product Works.  Did You Ship?"
+title = "The Product Works. Did You Ship?"
 tags = ["leadership", "product"]
 description = "Just because you have something to show, doesn't mean you have a real product ready."
 +++
