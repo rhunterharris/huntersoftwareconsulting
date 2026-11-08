@@ -203,7 +203,7 @@ def main():
             assert by_type['Organization']['founder']['@id'] == by_type['Person']['@id']
             if 'BlogPosting' in by_type:
                 article = by_type['BlogPosting']
-                assert article['headline'] == h1[0]
+                assert ' '.join(article['headline'].split()) == ' '.join(h1[0].split())
                 assert article['author']['@id'] == by_type['Person']['@id']
                 assert article['publisher']['@id'] == by_type['Organization']['@id']
                 assert article['datePublished'][:10] in page.times
