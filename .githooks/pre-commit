@@ -1,0 +1,9 @@
+#!/bin/sh
+# Build the site and run the same checks CI runs before deploy, so a bad link,
+# heading or title fails at commit time, not at deploy (Hunter, 2026-11-08).
+set -e
+out=$(mktemp -d "${TMPDIR:-/tmp}/hsc-precommit.XXXXXX")
+trap 'rm -rf "$out"' EXIT
+command -v hugo >/dev/null || { echo "pre-commit: hugo not found; install Hugo Extended to commit" >&2; exit 1; }
+hugo --gc --minify --quiet -d "$out"
+python3 scripts/check_site.py "$out" >/dev/null || { python3 scripts/check_site.py "$out" >&2; echo "pre-commit: site checks failed (see above)" >&2; exit 1; }

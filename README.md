@@ -11,6 +11,8 @@ python3 scripts/check_site.py public
 python3 scripts/preview.py --directory public --port 1318
 ```
 
+Run `git config core.hooksPath .githooks` once per clone: the pre-commit hook builds the site and runs `scripts/check_site.py`, so a failure shows at commit time rather than at deploy.
+
 Open http://127.0.0.1:1318/. Rebuild and refresh after changing source. The preview binds only to loopback, disables browser caching, and returns the site's custom page with HTTP 404 for unknown paths.
 
 For live development, `hugo server --disableFastRender --port 1318` also works. Restart it after frontmatter changes if content appears misaligned.
